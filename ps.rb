@@ -18,5 +18,8 @@ if ("#{ARGV[0]}" == "-e")
 
     puts "#{pid}\t#{cmd}"
   end
+else
+puts "To see every process on the system use -e"
+
 end
 
